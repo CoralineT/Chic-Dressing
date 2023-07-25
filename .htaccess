@@ -1,3 +1,5 @@
+php_value upload_max_filesize 512M
+php_value post_max_size 512M
 
 # BEGIN WordPress
 # Les directives (lignes) entre « BEGIN WordPress » et « END WordPress » sont générées
@@ -6,11 +8,11 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-RewriteBase /Chic-Dressing/Chic-Dressing/
+RewriteBase /
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /Chic-Dressing/Chic-Dressing/index.php [L]
+RewriteRule . /index.php [L]
 </IfModule>
 
 # END WordPress

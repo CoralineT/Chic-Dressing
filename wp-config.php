@@ -18,7 +18,8 @@
  *
  * @package WordPress
  */
-
+@ini_set( 'upload_max_filesize' , '512M' );
+@ini_set( 'post_max_size', '512M');
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Nom de la base de données de WordPress. */
 define( 'DB_NAME', 'chic-dressing' );
