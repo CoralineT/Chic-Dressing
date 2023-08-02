@@ -23,24 +23,18 @@
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Nom de la base de données de WordPress. */
 define( 'DB_NAME', 'chic-dressing' );
-
 /** Utilisateur de la base de données MySQL. */
 define( 'DB_USER', 'admin_chic-dressing' );
-
 /** Mot de passe de la base de données MySQL. */
 define( 'DB_PASSWORD', 'admin1234' );
-
 /** Adresse de l’hébergement MySQL. */
 define( 'DB_HOST', 'localhost' );
-
 /** Jeu de caractères à utiliser par la base de données lors de la création des tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
-
 /** Type de collation de la base de données.
   * N’y touchez que si vous savez ce que vous faites.
   */
 define('DB_COLLATE', '');
-
 /**#@+
  * Clés uniques d’authentification et salage.
  *
@@ -61,7 +55,6 @@ define( 'SECURE_AUTH_SALT', 'WN$j~vS)kpX3n_bK@jr3])H>$</Zf{MJ^/9iK62|QW`B(zvp[O&
 define( 'LOGGED_IN_SALT',   '->&raS }m2r)H-^Lk5t?yKdbqv!0=0IvSCf};`Lwb^O:_bY`;9bFh~[%;wJe&n/O' );
 define( 'NONCE_SALT',       'TI}[k 4M9BE.K0i5!-oeZ$=0cLZy4*2M(@[+PnR%z(Q6`N6mC!Z%z,tk%>kCiw5k' );
 /**#@-*/
-
 /**
  * Préfixe de base de données pour les tables de WordPress.
  *
@@ -70,7 +63,6 @@ define( 'NONCE_SALT',       'TI}[k 4M9BE.K0i5!-oeZ$=0cLZy4*2M(@[+PnR%z(Q6`N6mC!Z
  * N’utilisez que des chiffres, des lettres non-accentuées, et des caractères soulignés !
  */
 $table_prefix = 'wp_';
-
 /**
  * Pour les développeurs et développeuses : le mode déboguage de WordPress.
  *
@@ -86,12 +78,9 @@ $table_prefix = 'wp_';
  * @link https://fr.wordpress.org/support/article/debugging-in-wordpress/
  */
 define('WP_DEBUG', false);
-
 /* C’est tout, ne touchez pas à ce qui suit ! Bonne publication. */
-
 /** Chemin absolu vers le dossier de WordPress. */
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
-
 /** Réglage des variables de WordPress et de ses fichiers inclus. */
 require_once(ABSPATH . 'wp-settings.php');
