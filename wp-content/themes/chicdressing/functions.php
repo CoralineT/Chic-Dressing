@@ -10,8 +10,11 @@ add_filter( 'big_image_size_threshold', '__return_false' );
 
 // Supression Google Fonts thème parent
 function remove_google_fonts() {
+    wp_deregister_style( 'ashe-playfair-font' );
     wp_dequeue_style( 'ashe-playfair-font' );
+    wp_deregister_style( 'ashe-opensans-font' );
     wp_dequeue_style( 'ashe-opensans-font' );
+    wp_deregister_style( 'ashe-kalam-font' );
     wp_dequeue_style( 'ashe-kalam-font' );
    }
    add_action('wp_enqueue_scripts', 'remove_google_fonts', 20 );

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: http://chic-dressing/sitemap_index.xml

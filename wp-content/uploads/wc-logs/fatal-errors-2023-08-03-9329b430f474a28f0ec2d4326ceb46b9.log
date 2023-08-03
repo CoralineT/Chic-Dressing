@@ -16,3 +16,80 @@ Stack trace:
 #13 {main}
   thrown dans C:\MAMP\htdocs\Chic-Dressing\wp-content\plugins\wysija-newsletters\helpers\file.php à la ligne 161
 
+2023-08-03T15:01:08+00:00 CRITICAL Uncaught Error: Call to undefined function opcache_reset() in C:\MAMP\htdocs\Chic-Dressing\wp-content\plugins\nginx-helper\admin\class-fastcgi-purger.php:180
+Stack trace:
+#0 C:\MAMP\htdocs\Chic-Dressing\wp-content\plugins\tenweb-speed-optimizer\includes\OptimizerUtils.php(1830): FastCGI_Purger->purge_all()
+#1 C:\MAMP\htdocs\Chic-Dressing\wp-content\plugins\tenweb-speed-optimizer\OptimizerAdmin.php(1168): TenWebOptimizer\OptimizerUtils::clear_third_party_cache()
+#2 C:\MAMP\htdocs\Chic-Dressing\wp-content\plugins\tenweb-speed-optimizer\OptimizerAdmin.php(384): TenWebOptimizer\OptimizerAdmin::clear_cache(false, true, true, true, 'front_page', false, false)
+#3 C:\MAMP\htdocs\Chic-Dressing\wp-includes\class-wp-hook.php(306): TenWebOptimizer\OptimizerAdmin->clear_cache_without_critical_css_regeneration()
+#4 C:\MAMP\htdocs\Chic-Dressing\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\MAMP\htdocs\Chic-Dressing\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\MAMP\htdocs\Chic-Dressing\wp-admin\includes\plugin.php(828): do_action('deactivated_plu...', 'wp-super-cache/...', false)
+#7 C:\MAMP\htdocs\Chic-Dressing\wp-content\plugins\tenweb-speed-optimizer\OptimizerAdmin.php(1579): deactivate_plugins('wp-super-cache/...')
+#8 C:\MAMP\htdocs\Chic-Dressing\wp-includes\class-wp-hook.php(308): TenWebOptimizer\OptimizerAdmin::two_deactivate_plugin('')
+#9 C:\MAMP\htdocs\Chic-Dressing\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#10 C:\MAMP\htdocs\Chic-Dressing\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\MAMP\htdocs\Chic-Dressing\wp-admin\admin-ajax.php(188): do_action('wp_ajax_two_dea...')
+#12 {main}
+  thrown dans C:\MAMP\htdocs\Chic-Dressing\wp-content\plugins\nginx-helper\admin\class-fastcgi-purger.php à la ligne 180
+
+2023-08-03T15:01:12+00:00 CRITICAL Uncaught Error: Call to undefined function opcache_reset() in C:\MAMP\htdocs\Chic-Dressing\wp-content\plugins\nginx-helper\admin\class-fastcgi-purger.php:180
+Stack trace:
+#0 C:\MAMP\htdocs\Chic-Dressing\wp-content\plugins\tenweb-speed-optimizer\includes\OptimizerUtils.php(1830): FastCGI_Purger->purge_all()
+#1 C:\MAMP\htdocs\Chic-Dressing\wp-content\plugins\tenweb-speed-optimizer\OptimizerAdmin.php(1168): TenWebOptimizer\OptimizerUtils::clear_third_party_cache()
+#2 C:\MAMP\htdocs\Chic-Dressing\wp-content\plugins\tenweb-speed-optimizer\OptimizerAdmin.php(384): TenWebOptimizer\OptimizerAdmin::clear_cache(false, true, true, true, 'front_page', false, false)
+#3 C:\MAMP\htdocs\Chic-Dressing\wp-includes\class-wp-hook.php(306): TenWebOptimizer\OptimizerAdmin->clear_cache_without_critical_css_regeneration()
+#4 C:\MAMP\htdocs\Chic-Dressing\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\MAMP\htdocs\Chic-Dressing\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\MAMP\htdocs\Chic-Dressing\wp-admin\includes\plugin.php(828): do_action('deactivated_plu...', 'wp-super-cache/...', false)
+#7 C:\MAMP\htdocs\Chic-Dressing\wp-content\plugins\tenweb-speed-optimizer\OptimizerAdmin.php(1579): deactivate_plugins('wp-super-cache/...')
+#8 C:\MAMP\htdocs\Chic-Dressing\wp-includes\class-wp-hook.php(308): TenWebOptimizer\OptimizerAdmin::two_deactivate_plugin('')
+#9 C:\MAMP\htdocs\Chic-Dressing\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#10 C:\MAMP\htdocs\Chic-Dressing\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\MAMP\htdocs\Chic-Dressing\wp-admin\admin-ajax.php(188): do_action('wp_ajax_two_dea...')
+#12 {main}
+  thrown dans C:\MAMP\htdocs\Chic-Dressing\wp-content\plugins\nginx-helper\admin\class-fastcgi-purger.php à la ligne 180
+
+2023-08-03T15:01:14+00:00 CRITICAL Uncaught Error: Call to undefined function opcache_reset() in C:\MAMP\htdocs\Chic-Dressing\wp-content\plugins\nginx-helper\admin\class-fastcgi-purger.php:180
+Stack trace:
+#0 C:\MAMP\htdocs\Chic-Dressing\wp-content\plugins\tenweb-speed-optimizer\includes\OptimizerUtils.php(1830): FastCGI_Purger->purge_all()
+#1 C:\MAMP\htdocs\Chic-Dressing\wp-content\plugins\tenweb-speed-optimizer\OptimizerAdmin.php(1168): TenWebOptimizer\OptimizerUtils::clear_third_party_cache()
+#2 C:\MAMP\htdocs\Chic-Dressing\wp-content\plugins\tenweb-speed-optimizer\OptimizerAdmin.php(384): TenWebOptimizer\OptimizerAdmin::clear_cache(false, true, true, true, 'front_page', false, false)
+#3 C:\MAMP\htdocs\Chic-Dressing\wp-includes\class-wp-hook.php(306): TenWebOptimizer\OptimizerAdmin->clear_cache_without_critical_css_regeneration()
+#4 C:\MAMP\htdocs\Chic-Dressing\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\MAMP\htdocs\Chic-Dressing\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\MAMP\htdocs\Chic-Dressing\wp-admin\includes\plugin.php(828): do_action('deactivated_plu...', 'flying-scripts/...', false)
+#7 C:\MAMP\htdocs\Chic-Dressing\wp-content\plugins\tenweb-speed-optimizer\OptimizerAdmin.php(1579): deactivate_plugins('flying-scripts/...')
+#8 C:\MAMP\htdocs\Chic-Dressing\wp-includes\class-wp-hook.php(308): TenWebOptimizer\OptimizerAdmin::two_deactivate_plugin('')
+#9 C:\MAMP\htdocs\Chic-Dressing\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#10 C:\MAMP\htdocs\Chic-Dressing\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\MAMP\htdocs\Chic-Dressing\wp-admin\admin-ajax.php(188): do_action('wp_ajax_two_dea...')
+#12 {main}
+  thrown dans C:\MAMP\htdocs\Chic-Dressing\wp-content\plugins\nginx-helper\admin\class-fastcgi-purger.php à la ligne 180
+
+2023-08-03T15:02:04+00:00 CRITICAL Uncaught Error: Call to undefined function opcache_reset() in C:\MAMP\htdocs\Chic-Dressing\wp-content\plugins\nginx-helper\admin\class-fastcgi-purger.php:180
+Stack trace:
+#0 C:\MAMP\htdocs\Chic-Dressing\wp-content\plugins\tenweb-speed-optimizer\includes\OptimizerUtils.php(1830): FastCGI_Purger->purge_all()
+#1 C:\MAMP\htdocs\Chic-Dressing\wp-content\plugins\tenweb-speed-optimizer\OptimizerAdmin.php(1168): TenWebOptimizer\OptimizerUtils::clear_third_party_cache()
+#2 C:\MAMP\htdocs\Chic-Dressing\wp-content\plugins\tenweb-speed-optimizer\OptimizerAdmin.php(362): TenWebOptimizer\OptimizerAdmin::clear_cache(false, true, true, true, 'front_page', false, false)
+#3 C:\MAMP\htdocs\Chic-Dressing\wp-includes\class-wp-hook.php(310): TenWebOptimizer\OptimizerAdmin->clear_cache_conditionally_activate('flying-scripts/...')
+#4 C:\MAMP\htdocs\Chic-Dressing\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\MAMP\htdocs\Chic-Dressing\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\MAMP\htdocs\Chic-Dressing\wp-admin\includes\plugin.php(718): do_action('activated_plugi...', 'flying-scripts/...', false)
+#7 C:\MAMP\htdocs\Chic-Dressing\wp-admin\plugins.php(58): activate_plugin('flying-scripts/...', 'http://chic-dre...', false)
+#8 {main}
+  thrown dans C:\MAMP\htdocs\Chic-Dressing\wp-content\plugins\nginx-helper\admin\class-fastcgi-purger.php à la ligne 180
+
+2023-08-03T15:02:09+00:00 CRITICAL Uncaught Error: Call to undefined function opcache_reset() in C:\MAMP\htdocs\Chic-Dressing\wp-content\plugins\nginx-helper\admin\class-fastcgi-purger.php:180
+Stack trace:
+#0 C:\MAMP\htdocs\Chic-Dressing\wp-content\plugins\tenweb-speed-optimizer\includes\OptimizerUtils.php(1830): FastCGI_Purger->purge_all()
+#1 C:\MAMP\htdocs\Chic-Dressing\wp-content\plugins\tenweb-speed-optimizer\OptimizerAdmin.php(1168): TenWebOptimizer\OptimizerUtils::clear_third_party_cache()
+#2 C:\MAMP\htdocs\Chic-Dressing\wp-content\plugins\tenweb-speed-optimizer\OptimizerAdmin.php(362): TenWebOptimizer\OptimizerAdmin::clear_cache(false, true, true, true, 'front_page', false, false)
+#3 C:\MAMP\htdocs\Chic-Dressing\wp-includes\class-wp-hook.php(310): TenWebOptimizer\OptimizerAdmin->clear_cache_conditionally_activate('wp-super-cache/...')
+#4 C:\MAMP\htdocs\Chic-Dressing\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\MAMP\htdocs\Chic-Dressing\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\MAMP\htdocs\Chic-Dressing\wp-admin\includes\plugin.php(718): do_action('activated_plugi...', 'wp-super-cache/...', false)
+#7 C:\MAMP\htdocs\Chic-Dressing\wp-admin\plugins.php(58): activate_plugin('wp-super-cache/...', 'http://chic-dre...', false)
+#8 {main}
+  thrown dans C:\MAMP\htdocs\Chic-Dressing\wp-content\plugins\nginx-helper\admin\class-fastcgi-purger.php à la ligne 180
+
