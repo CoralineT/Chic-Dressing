@@ -1,8 +1,8 @@
 <?php
 
-$featured_links_image_1 = wp_get_attachment_image_src( ashe_options( 'featured_links_image_1' ), 'full' );
-$featured_links_image_2 = wp_get_attachment_image_src( ashe_options( 'featured_links_image_2' ), 'full' );
-$featured_links_image_3 = wp_get_attachment_image_src( ashe_options( 'featured_links_image_3' ), 'full' );
+$featured_links_image_1 = wp_get_attachment_image_src( ashe_options( 'featured_links_image_1' ), 'small' );
+$featured_links_image_2 = wp_get_attachment_image_src( ashe_options( 'featured_links_image_2' ), 'small' );
+$featured_links_image_3 = wp_get_attachment_image_src( ashe_options( 'featured_links_image_3' ), 'small' );
 
 ?>
 

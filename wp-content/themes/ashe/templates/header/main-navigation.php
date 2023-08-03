@@ -17,7 +17,7 @@
 
 		<!-- Mini Logo -->
 		<?php
-		$mini_logo = ashe_get_image_src_by_url( ashe_options( 'main_nav_mini_logo' ), 'full' );
+		$mini_logo = ashe_get_image_src_by_url( ashe_options( 'main_nav_mini_logo' ), 'small' );
 
 		if ( isset($mini_logo[0]) ) : ?>
 		<div class="mini-logo">

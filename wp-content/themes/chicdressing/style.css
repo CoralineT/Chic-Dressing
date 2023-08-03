@@ -14,6 +14,122 @@ Text Domain:	 chicdressing
     Add your custom styles here
 */
 
+/* Police Google Font Playfair Display */
+@font-face {
+    font-family: 'Playfair Display';
+    src:    url('assets/fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src:    url('assets/fonts/PlayfairDisplay-Italic.ttf') format('truetype');
+    font-display: swap;
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src:    url('assets/fonts/PlayfairDisplay-Bold.ttf') format('truetype');
+    font-display: swap;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+/* Police Google Font Open Sans */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('assets/fonts/OpenSans-Regular.ttf') format('truetype');
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('assets/fonts/OpenSans-Italic.ttf') format('truetype');
+    font-display: swap;
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('assets/fonts/OpenSans-Bold.ttf') format('truetype');
+    font-display: swap;
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('assets/fonts/OpenSans-BoldItalic.ttf') format('truetype');
+    font-display: swap;
+    font-style: italic;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('assets/fonts/OpenSans-SemiBold.ttf') format('truetype');
+    font-display: swap;
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('assets/fonts/OpenSans-SemiBoldItalic.ttf') format('truetype');
+    font-display: swap;
+    font-style: italic;
+    font-weight: 600;
+}
+
+
+
+/* Police Google Font Kalam */
+@font-face {
+    font-family: 'Kalam';
+    src: url('assets/fonts/Kalam-Regular.ttf') format('truetype');
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Kalam';
+    src: url('assets/fonts/Kalam-Bold.ttf') format('truetype');
+    font-display: swap;
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Kalam';
+    src: url('assets/fonts/Kalam-Light.ttf') format('truetype');
+    font-display: swap;
+    font-style: normal;
+    font-weight: 300;
+}
+
+
+body {
+    font-family: 'Playfair Display', 'Open Sans', 'Kalam';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Playfair Display', 'Open Sans', 'Kalam';
+}
+
 
 body .page-content, .page-content select, .page-content input, .page-content textarea, .page-content .post-author a, .page-content .ashe-widget a, .page-content .comment-author {
     color: #a5a5a5;
