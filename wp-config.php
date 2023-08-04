@@ -22,8 +22,6 @@
 @ini_set( 'post_max_size', '512M');
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Nom de la base de données de WordPress. */
-define('WP_CACHE', true);
-define( 'WPCACHEHOME', 'C:\MAMP\htdocs\Chic-Dressing\wp-content\plugins\wp-super-cache/' );
 define( 'DB_NAME', 'chic-dressing' );
 /** Utilisateur de la base de données MySQL. */
 define( 'DB_USER', 'admin_chic-dressing' );
@@ -37,6 +35,7 @@ define( 'DB_CHARSET', 'utf8mb4' );
   * N’y touchez que si vous savez ce que vous faites.
   */
 define('DB_COLLATE', '');
+define( 'EIO_WEBP_SHARP_YUV', true );
 /**#@+
  * Clés uniques d’authentification et salage.
  *
