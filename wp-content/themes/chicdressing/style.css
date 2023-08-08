@@ -116,6 +116,11 @@ Text Domain:	 chicdressing
     font-weight: 300;
 }
 
+@font-face {
+    font-family: 'fontello';
+    src: url('../ashe/assets/fonts/fontello.woff2');
+    font-display: swap;
+}
 
 body {
     font-family: 'Playfair Display', 'Open Sans', 'Kalam';
@@ -179,4 +184,12 @@ body .header-logo a{
 #chic-products ul.products li.product{
     background: #f6f6f6;
     padding-bottom: 20px;
+}
+
+.page-content .post-date, .post-content>p, .woocommerce .page-content .woocommerce-result-count, .woocommerce-page .page-content .woocommerce-result-count, .textwidget p, .rpwwt-post-categories {
+    color: #797676 !important;
+}
+
+.widget_wysija_cont p label {
+    color: #464744;
 }

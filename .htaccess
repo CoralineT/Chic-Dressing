@@ -379,24 +379,14 @@ php_value post_max_size 512M
 # dynamiquement, et doivent être modifiées uniquement via les filtres WordPress.
 # Toute modification des directives situées entre ces marqueurs sera surchargée.
 <IfModule mod_rewrite.c>
-	RewriteEngine On
-	RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-	RewriteBase /
-	RewriteRule ^index\.php$ - [L]
-	RewriteCond %{REQUEST_FILENAME} !-f
-	RewriteCond %{REQUEST_FILENAME} !-d
-	RewriteRule . /index.php [L]
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
 </IfModule>
-
-AddOutputFilterByType DEFLATE text/plain
-AddOutputFilterByType DEFLATE text/html
-AddOutputFilterByType DEFLATE text/xml
-AddOutputFilterByType DEFLATE text/css
-AddOutputFilterByType DEFLATE application/xml
-AddOutputFilterByType DEFLATE application/xhtml+xml
-AddOutputFilterByType DEFLATE application/rss+xml
-AddOutputFilterByType DEFLATE application/javascript
-AddOutputFilterByType DEFLATE application/x-javascript
 
 # END WordPress
 # BEGIN Speed Optimizer by 10Web

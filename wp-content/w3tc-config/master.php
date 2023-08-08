@@ -1031,10 +1031,12 @@
     "common.instance_id": 1691753146,
     "common.force_master": true,
     "extensions.active": {
-        "user-experience-emoji": "w3-total-cache\/UserExperience_Emoji_Extension.php"
+        "user-experience-emoji": "w3-total-cache\/UserExperience_Emoji_Extension.php",
+        "wordpress-seo": "w3-total-cache\/Extension_WordPressSeo_Plugin.php"
     },
     "extensions.active_frontend": {
-        "user-experience-emoji": "*"
+        "user-experience-emoji": "*",
+        "wordpress-seo": "*"
     },
     "extensions.active_dropin": [],
     "plugin.license_key": "",
